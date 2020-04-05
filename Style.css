@@ -1,0 +1,106 @@
+header{
+	margin: 20px;
+	background: #fffeeb;
+}
+
+a{
+  color: black;
+}
+@media (min-width: 800px){
+.container-1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-1-box1{
+
+	flex: 3;
+	margin-left: 50px;
+}
+.edu{
+	display: none;
+	line-height: 0.3;
+	padding: 10px;
+	margin-top: 20px;
+}
+.edu-main:hover .edu{
+	display: block;
+	position: absolute;
+	margin-left: 10px;
+	top: 40px;
+	width: auto;
+}
+.army{
+	display: none;
+	line-height: 0.3;
+	padding: 10px;
+	margin-top: 20px;
+}
+.army-main:hover .army{
+	display: block;
+	position: absolute;
+	margin-left: -120px;
+	top: 40px;
+}
+.work{
+	display: none;
+	width: auto;
+ line-height: 0.3;
+	padding: 10px;
+	margin-top: 20px;
+}
+.work-main:hover .work{
+	display: block;
+	position: absolute;
+	margin-left: -200px;
+	top: 40px;
+}
+.hobby{
+	display: none;
+	width: auto;
+	line-height: 0.3;
+	padding: 10px;
+	margin-top: 20px;
+}
+.hobby-main:hover .hobby{
+	display: block;
+	position: absolute;
+	margin-left: -290px;
+	top: 40px;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  display: block;
+  padding: 20px;
+	color: black;
+}
+a:hover{
+	color: #9932CC;
+}
+}
+@media (max-width: 800px){
+	.container-1
+	{
+		display: grid;
+    grid-template-columns: repeat(5, 1 fr);
+		place-items: center;
+		align-items: start;
+	}
+	.container-1-box1{
+		grid-column-start: 1;
+	  grid-column-end: 6;
+	}
+
+	ul{
+	  list-style: none;
+	}
+}
+body{
+	background: #fffeeb;
+}
+.color-red{
+	color: red;
+}
