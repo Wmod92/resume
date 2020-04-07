@@ -1,2 +1,1 @@
-var name = 'Олег';
-alert('Привет ' +name);
+console.log(Math.abs(-3));
