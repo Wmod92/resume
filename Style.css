@@ -1,8 +1,6 @@
 header{
 	margin: 20px;
-	background: #fffeeb;
 }
-
 a{
   color: black;
 }
@@ -99,7 +97,7 @@ a:hover{
 	}
 }
 body{
-	background: #fffeeb;
+background-image: url(gitimg\backgraund.png);
 }
 .color-red{
 	color: red;
