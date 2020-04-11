@@ -97,6 +97,7 @@ a:hover{
 	}
 }
 body{
+background-size: auto;
 background-image: url(img\backgraund.png);
 }
 .color-red{
