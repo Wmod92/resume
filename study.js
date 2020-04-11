@@ -1,7 +1,5 @@
-
-function func1() {
-  alert('!');
-}
-function func2() {
-  alert('2');
+function func() {
+  var elem = document.getElementById('test');
+elem.value = "www";
+  alert(elem.value);
 }
