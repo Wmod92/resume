@@ -12,6 +12,4 @@ if (fail) {
   alert (fail);
   return false;
 }
-
-}
 }
