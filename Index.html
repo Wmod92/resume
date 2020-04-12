@@ -68,15 +68,16 @@
       </nav>
     </header>
   <body>
-<form action="" method="post" name="предложить работу" onsubmit="valid()">
+<form action="" method="post" name="предложить работу" id="form">
   <p> Eсли вы хотите предложить мне работу или заказ, заполните форму </p>
   <label for="name">Имя</label>
-  <input type="text" name="name" placeholder="Имя" id="name" /> <br/> <br/>
+  <input type="text" name="name" placeholder="Имя" id="name" /> <br/>
   <label for="telephon">Телефон</label>
-  <input type="number" name="number" placeholder="Телефон" id="telephon" /> <br/> <br/>
+  <input type="number" name="number" placeholder="Телефон" id="telephon" /> <br/>
   <label for="Email">Email</label>
-  <input type="email" name="email" placeholder="Email"> <br><br>
+  <input type="email" name="email" placeholder="Email"> <br>
   <label for="description"> Краткое описание</label> <br>
-  <textarea name="description" rows="8" cols="80"></textarea>
+  <textarea name="description" rows="4" cols="65"></textarea><br>
+  <button type="button" name="button" onclick="valid(document.getElementById('form'))"> Отправить </button>
   </body>
 </html>
