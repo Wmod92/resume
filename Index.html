@@ -4,8 +4,13 @@
     <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="Style.css" media="all">
     <title> Идеальный код </title>
-    <script src="ask-work.js"> </script>
+    <script src="js\ask-work.js">  </script>
     </head>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  <body>
+    <div id="page_preloader" class="preloader">
+      <div class="loader">  </div>
+    </div>
     <header>
       <nav>
         <ul>
@@ -37,15 +42,15 @@
               <li class="container-1-box4"><a href=""> Работа </a></li>
               <div class="work">
                 <h4> 2013-2015 г. Российский союз сельской молодежи. </h4>
-                  <h4>Руководитель регионального отделения Санкт-Петербург. </h4>
+                <h4>Руководитель регионального отделения Санкт-Петербург. </h4>
                 <h4> 2013-2015 г. РПЦ "Пушкинец". </h4>
-                  <h4> Преподаватель доп. образования. Робототехника. </h4>
+                <h4> Преподаватель доп. образования. Робототехника. </h4>
                 <h4> 2013 г. Студ. практика г.Ростов-на-Дону. Завод "Ростсельмаш". </h4>
                 <h4> Сервис роботизированной линии производства.</h4>
                 <h4> 2014 г. Студ. практика г.Ростов-на-Дону. </h4>
                 <h4> Завод "Ростсельмаш". Конструкторское бюро. </h4>
                 <h4> 2016-2020 г. ООО "АС-Терра".</h4>
-                  <h4> Инженер-разработчик, светотехник. </h4>
+                <h4> Инженер-разработчик, светотехник. </h4>
                 <h3> Самозанятый 2016-2020 г.</h3>
                 <h4> 3D Моделирование в solidworks. </h4>
                 <h4> 3D печать. </h4>
@@ -54,7 +59,7 @@
             <div class="hobby-main">
               <li class="container-1-box5"><a href=""> Хобби </a></li>
               <div class="hobby">
-                <h4> Путешествие автостопом.</h4>
+              <h4> Путешествие автостопом.</h4>
               <h4> Проехал маршрут Ингушетия->Чечня->Дагестан-> </h4>
               <h4> Азербайджан->Грузия->Турция->Болгария.</h4>
               <h4> Играю на гитаре. </h4>
@@ -67,9 +72,9 @@
         </ul>
       </nav>
     </header>
-  <body>
+    <div class="form">
 <form action="" method="post" name="предложить работу" id="form">
-  <p> Eсли вы хотите предложить мне работу или заказ, заполните форму </p>
+  <p> Eсли вы хотите предложить или заказ, заполните форму </p>
   <label for="name">Имя</label>
   <input type="text" name="name" placeholder="Имя" id="name" /> <br/>
   <label for="telephon">Телефон</label>
@@ -79,5 +84,7 @@
   <label for="description"> Краткое описание</label> <br>
   <textarea name="description" rows="4" cols="65"></textarea><br>
   <button type="button" name="button" onclick="valid(document.getElementById('form'))"> Отправить </button>
+    </div>
   </body>
+  <script src="js\preloader.js"> </script>
 </html>
