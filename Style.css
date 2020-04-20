@@ -4,36 +4,28 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: black;
-	z-index: 2;
-	transition: 1s all;
-	opacity: 1;
-	visibility: visible;
+	background-color: black;
 }
 .loader{
-	width: 75px;
-	height: 75px;
-	border: 10px solid white;
-	border-radius: 50%;
-	border-top-color: blue;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	animation: 1s spin infinite linear;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+animation: 1s spin 4 linear ;
 }
+
 .done{
-	opacity: 0;
-	visibility: hidden;
+animation: 1s spin 1 linear;
+}
+.done1{
+	background-color: transparent;
 }
 @keyframes spin {
-	from{
-		transform: translate(-50%, -50%) rotate(0deg);
-	}
-	to{
-		transform: translate(-50%,-50%) rotate(360deg);
-	}
-}
+from{
+	transform: translate(-50%, -50%) rotate(0deg);}
+to{
+	transform: translate(-50%, -50%) rotate(360deg);
+}}
 header{
 	margin: 20px;
 }
